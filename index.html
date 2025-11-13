@@ -45,7 +45,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/Goa.jpg" alt="Goa" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/Goa (online-video-cutter.com).mp4" type="video/mp4" />
             </video>
             <h3>Goa</h3>
@@ -55,7 +55,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/Rajasthan.jpg" alt="Rajasthan" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/JAIPUR - THE PINK CITY | cinematic video (online-video-cutter.com).mp4" type="video/mp4" />
             </video>
             <h3>Rajasthan</h3>
@@ -65,7 +65,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/Kerala.jpg" alt="Kerala" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/Kerala-VEED.mp4" type="video/mp4" />
             </video>
             <h3>Kerala</h3>
@@ -75,7 +75,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/HP.jpg" alt="Himachal Pradesh" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/Himachal copy.mp4" type="video/mp4" />
             </video>
             <h3>Himachal Pradesh</h3>
@@ -85,7 +85,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/UP.jpg" alt="Uttar Pradesh" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/UP.mp4" type="video/mp4" />
             </video>
             <h3>Uttar Pradesh</h3>
@@ -95,7 +95,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/Leh Ladakh.jpg" alt="Leh-Ladakh" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/Leh.mp4" type="video/mp4" />
             </video>
             <h3>Leh-Ladakh</h3>
@@ -105,7 +105,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/MP.jpg" alt="Madhya Pradesh" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/madhya pradesh copy.mp4" type="video/mp4" />
             </video>
             <h3>Madhya Pradesh</h3>
@@ -115,7 +115,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/Meghalaya.jpg" alt="Meghalaya" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/Unseen Meghalaya in monsoon | A village above clouds | Nishant Parmar & Dheeraj (online-video-cutter.com).mp4" type="video/mp4" />
             </video>
             <h3>Meghalaya</h3>
@@ -125,7 +125,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/J&K.jpg" alt="Jammu & Kashmir" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/Kashmir | Most Beautiful Place in India | Mini Switzerland 4k Video (online-video-cutter.com).mp4" type="video/mp4" />
             </video>
             <h3>Jammu & Kashmir</h3>
@@ -135,7 +135,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/AP.jpg" alt="Andhra Pradesh" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/Andhra Pradesh | Drone s Eye | TheVibe (online-video-cutter.com).mp4" type="video/mp4" />
             </video>
             <h3>Andhra Pradesh</h3>
@@ -145,7 +145,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/Sikkim.jpg" alt="Sikkim" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/sikkim.mp4" type="video/mp4" />
             </video>
             <h3>Sikkim</h3>
@@ -155,7 +155,7 @@
         <div class="destination-card video-card">
           <div class="video-container">
             <img src="images/WB.jpg" alt="West Bengal" class="thumbnail" />
-            <video class="hover-video" muted loop playsinline>
+            <video class="hover-video" autoplay muted loop playsinline>
               <source src="images/KOLKATA | CINEMATIC TRAVEL FILM | 2023.mp4" type="video/mp4" />
             </video>
             <h3>West Bengal</h3>
@@ -221,27 +221,7 @@
   </div>
 </section>
 
-
-
-
-
-    
   </main>
-
-  <script>
-    // Play video on hover
-    document.querySelectorAll('.video-card').forEach(card => {
-      const video = card.querySelector('video');
-      card.addEventListener('mouseenter', () => {
-        video.currentTime = 0;
-        video.play();
-      });
-      card.addEventListener('mouseleave', () => {
-        video.pause();
-        video.currentTime = 0;
-      });
-    });
-  </script>
 </body>
 </html>
 
